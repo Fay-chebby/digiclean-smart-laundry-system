@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+html{
+    background: url(../images/pm_1704150504794_cmp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.intro{
+    height: 80vh;
+    background-color: rgba(219, 211, 211, 0.4);
+    padding: 30px;
+}
+.spacer{
+    height: 50vh;
+}
+.title{
+    color: black;
+}
+.title1{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.title2{
+    font-size: 30px;
+    margin-bottom: 10vh;
+}
+.about{
+    background: #000080;
+}
+.image img{
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+.flex-column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.about .content h1{
+    color: #9F2B68;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.about .content p{
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+.about .image{
+    margin-top: 60px;
+    width: 50%;
+    height: 400px;
+}
+.service{
+    background: 	#E5E4E2;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.holder p{
+    text-align: justify;
+    font-size: 20px;
+}
+.holder{
+    height: 30vh;
+}
+.heading{
+    color:#000080;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.addition{
+    background: #C0C0C0;
+}
+.contact .left{
+    width: 50%;
+}
+.contact .right{
+    width: 50%;
+}
+.contact .right p{
+    margin-bottom: 30px;
+}
+.contact .right button{
+    justify-content: center;
+    margin-left: 100px;
+}
