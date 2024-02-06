@@ -13,7 +13,7 @@ html{
     width: 100vw;
     background-attachment: fixed;
     overflow-x: hidden;
-    scrollbar-width: 4px;
+    /* scrollbar-width: 4px; */
 }
 .navbar{
     display: flex;
@@ -46,11 +46,12 @@ ul li:hover a{
     color: black;
     background-color: white;
      font-size: 22px;
-     transition: all 300ms ease-in-out;
+     
      -webkit-transition: all 300ms ease-in-out;
      -moz-transition: all 300ms ease-in-out;
      -ms-transition: all 300ms ease-in-out;
      -o-transition: all 300ms ease-in-out;
+     transition: all 300ms ease-in-out;
 }
 .hero{
     height: 100vh;
@@ -87,16 +88,21 @@ ul li:hover a{
 button{
     width: 200px;
     height: 4em;
-    border-radius: 10px;
+    
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    border-radius: 10px;
     border: none;
 }
 button:hover{
     background-color:antiquewhite;
-    scale: 1.02;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
 }
 .sub{
     width: 100%;
@@ -120,11 +126,12 @@ button:hover{
     text-align: justify;
 }
 .right img{
-    border-radius: 20px;
+    
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    border-radius: 20px;
 }
 .flex-align{
     width: 100%;
@@ -150,11 +157,12 @@ button:hover{
     background: #191970;
 }
 .smart img{
-    border-radius: 20px;;
+    
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    border-radius: 20px;
 }
 .smart h2,
 .profession h2{
@@ -192,11 +200,11 @@ button:hover{
 .addition .content img{
     width: 70px;
     height: 70px;
-    transform: translateX(30px);
     -webkit-transform: translateX(30px);
     -moz-transform: translateX(30px);
     -ms-transform: translateX(30px);
     -o-transform: translateX(30px);
+    transform: translateX(30px);
     margin-bottom: 5vh;
 }
 .addition .content{
@@ -255,6 +263,7 @@ form{
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    border-radius: 30px;
     margin-top: 7vh;
     padding: 30px;
     gap: 20px;
@@ -262,7 +271,6 @@ form{
 .inputs{
     width: 47%;
     height: 10vh;
-    border-radius: 20px;
     outline: none;
     border: none;
     text-align: left;
@@ -270,6 +278,7 @@ form{
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    border-radius: 20px;
     margin-bottom: 20px;
     margin-left: 30px;
     padding-left: 20px;
@@ -279,11 +288,11 @@ form{
 }
 textarea{
     width: 100%;
-    border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    border-radius: 30px;
     outline: none;
     border: none;
     background: rgb(152, 148, 206);
