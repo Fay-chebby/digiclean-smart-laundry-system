@@ -1,21 +1,32 @@
 .pricing{
+<<<<<<< HEAD
     /* overflow-y: scroll; */
     height: max-content;
 }
 .content{
     height: max-content;
+=======
+    overflow-y: scroll;
+}
+.content{
+    height: 150vh;
+>>>>>>> f0fefa1854c9229cc05576950432927ae4a1b16d
 }
 table{
     width: 98%;
     margin: 10px;
+<<<<<<< HEAD
     border-collapse: collapse;
     border-radius: 20px;
     empty-cells: hide;
     vertical-align: bottom;
+=======
+>>>>>>> f0fefa1854c9229cc05576950432927ae4a1b16d
 }
 thead{
     text-align: center;
     font-size: 30px;
+<<<<<<< HEAD
     margin-bottom: 10pz;
 }
 td, th{
@@ -51,3 +62,11 @@ td:hover{
 td{
     text-transform: capitalize;
 }
+=======
+}
+td, th{
+    /* border: 2px solid black; */
+    padding: 20px;
+    /* text-align: center; */
+}
+>>>>>>> f0fefa1854c9229cc05576950432927ae4a1b16d

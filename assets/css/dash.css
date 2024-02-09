@@ -283,9 +283,12 @@ ul li{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     border-radius: 20px;
+<<<<<<< HEAD
 }
 .icons a{
     text-decoration: none;
     color: black;
     font-size: 20px;
+=======
+>>>>>>> f0fefa1854c9229cc05576950432927ae4a1b16d
 }
