@@ -22,7 +22,11 @@ html{
     overflow: hidden;
     padding-left: 10px;
     position: sticky;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     top: 0px;
+    padding-bottom: 10px;
 }
 .menu .icon{
     width: 40px;
@@ -279,4 +283,9 @@ ul li{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     border-radius: 20px;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
