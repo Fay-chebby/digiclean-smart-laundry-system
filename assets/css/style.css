@@ -6,6 +6,9 @@
     list-style: none;
     scroll-margin-top: 10vh;
 }
+.menu-toggle {
+    display: none;
+  }
 html{
     background: url(../images/pm_1704150504187_cmp.jpg);
     background-repeat: no-repeat;
@@ -52,6 +55,7 @@ ul li:hover a:not(.active){
      -o-transition: all 300ms ease-in-out;
      transition: all 300ms ease-in-out;
 }
+
 .hero{
     height: 100vh;
     display: block;
@@ -321,3 +325,450 @@ input placeholder{
     margin-top: 40px;
     /* left: 200px; */
 }
+@media only screen and (max-width:480px) {
+    .navbar {
+      flex-direction: row;
+      height: auto;
+      padding: 10px;
+   }
+   .menu-toggle{
+    display: block;
+   }
+  
+    .menu ul {
+      flex-direction: column;
+      align-items: center;
+      height: max-content;
+      padding-bottom: 20px;
+    }
+  
+    ul li {
+      width: 100%;
+      height: 20px;
+      margin: 10px 0;
+      padding: 20px 5px;
+      text-align: center;
+    }
+    .shrink{
+        width: 100%;
+        margin: 0%;
+        height: 100%;
+    }
+  
+    .hero {
+      height: 60vh;
+    }
+    .addition .content img{
+        transform: translateX(0px);
+    }
+  
+    .welcome {
+      font-size: 24px;
+      height: 15vh;
+      text-align: center;
+      /* padding-left: -20px; */
+      /* padding: 0; */
+      margin-bottom: 20px;
+    }
+    .sub{
+        font-size: 20px;
+        margin-bottom: 20px;
+        mix-blend-mode:color-dodge;
+        color: rgb(0, 255, 21);
+    }
+    .faq .holder{
+        width: 100%;
+        margin: 10px 0px;
+        box-shadow: none;
+        border-bottom: 2px solid black;
+    }
+    .faq{
+        margin: 0%;
+    }
+  
+    .spacer-vertical {
+      height: 5px;
+      /* display: none; */
+    }
+    .flex-align{
+        flex-direction: column;
+    }
+  
+    .About .left h1 {
+      font-size: 30px;
+    }
+  
+    .About .left {
+      font-size: 16px;
+    }
+  
+    .services .title {
+      font-size: 25px;
+    }
+  
+    .services .content {
+      font-size: 16px;
+    }
+  
+    .smart h2,
+    .profession h2 {
+      font-size: 25px;
+    }
+  
+    .smart .content p,
+    .profession .content p {
+      font-size: 16px;
+    }
+  
+    .addition h1 {
+      font-size: 30px;
+    }
+  
+    .addition .content h3 {
+      font-size: 20px;
+    }
+  
+    .addition .content p {
+      font-size: 16px;
+    }
+  
+    .faq h1 {
+      font-size: 30px;
+    }
+  
+    .faq .content .question {
+      font-size: 20px;
+    }
+  
+    .faq .content .answer {
+      font-size: 16px;
+    }
+  
+    .inputs {
+      width: 100%;
+      height: 5vh;
+      font-size: 16px;
+    }
+  
+    textarea {
+      font-size: 16px;
+    }
+    .menu {
+        position: relative;
+      }
+    
+      .menu ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(189, 188, 188);
+        flex-direction: column;
+      }
+    
+      .menu ul li {
+        margin: 0;
+        width: 100%;
+      }
+    
+      .menu ul li a {
+        padding: 10px;
+      }
+    
+      .menu ul.show {
+        display: flex;
+      }
+    
+      .menu-toggle {
+        display: block;
+        cursor: pointer;
+      }
+      .contact h1{
+        font-size: 30px;
+        text-align: center;
+      }
+      h1{
+        text-decoration: underline 2px solid black;
+        margin-bottom: 10px;
+        bottom: 10px;
+      }
+      h2{
+        margin-bottom: 10px;
+        font-size: 25px;
+      }
+      .contact p{
+        font-size: 15px;
+      }
+      .contact button{
+        transform: translateX(50px);
+      }
+      @media (orientation: landscape) {
+        .hero {
+          height: 100vh;
+        }
+        .menu{
+            position: relative;
+        }
+        .shrink{
+            width: 50%;
+            height: 50%;
+        }
+        .navbar{
+            height: 15vh;
+            padding: 20px 0px;
+        }
+        .addition .content img{
+            transform: translateX(0px);
+        }
+        .welcome {
+          font-size: 20px;
+          height: 15vh;
+          text-align: center;
+          /* padding-left: -20px; */
+          /* padding: 0; */
+          margin-bottom: 10px;
+
+        }
+        .sub{
+            font-size: 20px;
+            margin-top: 10vh;
+            margin-bottom: 20px;
+            mix-blend-mode:color-dodge;
+            color: rgb(0, 255, 21);
+        }
+        .faq .holder{
+            width: 100%;
+            margin: 10px 0px;
+            box-shadow: none;
+            border-bottom: 2px solid black;
+        }
+        .faq{
+            margin: 0%;
+        }
+        .spacer-vertical {
+          /* height: 5px; */
+          display: none;
+        }
+        .flex-align{
+            flex-direction: column;
+        }
+        .About .left h1 {
+          font-size: 30px;
+        }
+        .About .left {
+          font-size: 16px;
+        }
+        .services .title {
+          font-size: 25px;
+        }
+        .services .content {
+          font-size: 16px;
+        }
+        .smart h2,
+        .profession h2 {
+          font-size: 25px;
+        }
+        .smart .content p,
+        .profession .content p {
+          font-size: 16px;
+        }
+        .addition h1 {
+          font-size: 30px;
+        }
+        .addition .content h3 {
+          font-size: 20px;
+        }
+        .addition .content p {
+          font-size: 16px;
+        }
+        .faq h1 {
+          font-size: 30px;
+        }
+        .faq .content .question {
+          font-size: 20px;
+        }
+        .faq .content .answer {
+          font-size: 16px;
+        }
+        .inputs {
+          width: 100%;
+          height: 5vh;
+          font-size: 16px;
+        }
+        textarea {
+          font-size: 16px;
+        }
+        .menu {
+            position: relative;
+          }
+        
+          .menu ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: rgb(189, 188, 188);
+            flex-direction: column;
+          }
+        
+          .menu ul li {
+            margin: 0;
+            width: 100%;
+          }
+        
+          .menu ul li a {
+            padding: 10px;
+          }
+        
+          .menu ul.show {
+            display: flex;
+          }
+        
+          .menu-toggle {
+            display: block;
+            cursor: pointer;
+          }
+          .contact h1{
+            font-size: 30px;
+            text-align: center;
+          }
+          h1{
+            text-decoration: underline 2px solid black;
+            margin-bottom: 10px;
+            bottom: 10px;
+          }
+          h2{
+            margin-bottom: 10px;
+            font-size: 25px;
+          }
+          .contact p{
+            font-size: 15px;
+          }
+          .contact button{
+            transform: translateX(50px);
+          }
+      }
+  }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero {
+    height: 100vh;
+    padding-bottom: 10vh;
+  }
+  .welcome {
+    font-size: 48px;
+  }
+  .sub {
+    font-size: 24px;
+  }
+  .services .title {
+    font-size: 36px;
+  }
+  .services .content {
+    font-size: 24px;
+  }
+  .smart .title {
+    font-size: 36px;
+  }
+  .smart .content {
+    font-size: 24px;
+  }
+  .profession .title {
+    font-size: 36px;
+  }
+  .profession .content {
+    font-size: 24px;
+  }
+  .addition h1 {
+    font-size: 48px;
+  }
+  .addition .content h3 {
+    font-size: 24px;
+  }
+  .addition .content p {
+    font-size: 24px;
+  }
+  .faq h1 {
+    font-size: 48px;
+  }
+  .faq .content .question {
+    font-size: 24px;
+  }
+  .faq .content .answer {
+    font-size: 24px;
+  }
+  .inputs {
+    height: 6vh;
+    font-size: 24px;
+  }
+  textarea {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero {
+      height: 100vh;
+    }
+    .welcome {
+      font-size: 48px;
+    }
+    .sub {
+      font-size: 24px;
+    }
+    .services .title {
+      font-size: 36px;
+    }
+    .services .content {
+      font-size: 24px;
+    }
+    .smart .title {
+      font-size: 36px;
+    }
+    .smart .content {
+      font-size: 24px;
+    }
+    .profession .title {
+      font-size: 36px;
+    }
+    .profession .content {
+      font-size: 24px;
+    }
+    .addition h1 {
+      font-size: 48px;
+    }
+    .addition .content h3 {
+      font-size: 24px;
+    }
+    .addition .content p {
+      font-size: 24px;
+    }
+    .faq h1 {
+      font-size: 48px;
+    }
+    .faq .content .question {
+      font-size: 24px;
+    }
+    .faq .content .answer {
+      font-size: 24px;
+    }
+    .inputs {
+      height: 6vh;
+      font-size: 24px;
+    }
+    textarea {
+      font-size: 24px;
+    }
+    .shrink{
+        width: 100%;
+        height: 100%;
+    }
+    .flex-align{
+        flex-direction: column;
+    }
+    h2{
+      font-size: 25px;
+      margin-bottom: 20px;
+      color: crimson;
+    }
+  }
