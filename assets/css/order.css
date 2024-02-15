@@ -6,8 +6,9 @@
 }
 .content{
     /* background: blue; */
+    display: block;
     width: 99%;
-    height: 700px;
+    /* height: max-content; */
     /* aspect-ratio: 1; */
     margin-top: 20px;
     box-shadow: 5px 4px 4px 5px grey;
@@ -57,34 +58,6 @@
     -o-border-radius:10px;
     border-radius:10px;
 }
-.btn{
-    width: 300px;
-    height: 60px;
-    margin-left: 150px;
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    -ms-border-radius:10px;
-    -o-border-radius:10px;
-    border-radius:10px;
-    border: none;
-    background-color: blue;
-}
-.btn {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-}
-button:is(.hover, .focus){
-    background: rgb(4, 14, 107);
-}
-.btn:hover{
-    background: rgb(4, 14, 107);
-
-}
-.internal{
-    height: 80%;
-    overflow-y: scroll;
-}
-ul li{
-    list-style: none;
+.buttons{
+    margin-bottom: 30px;
 }
